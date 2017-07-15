@@ -7,7 +7,7 @@ This tool allows you to use a single WordPress codebase with an unlimited ammoun
 
 How does it work? By overwriting the `wp-config.php` file based on a profile, which contains all the essential WordPress configuration and specifying a custom `wp-content` folder for each site.
 
-You may apply and existing profile or even generate one based on the current contents of the `wp-config.php` file.
+You may apply an existing profile or even generate a new one based on the current contents of the `wp-config.php` file.
 
 ## Usage ##
 
