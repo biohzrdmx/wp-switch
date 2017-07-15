@@ -1,0 +1,5 @@
+# Prevent download of json files
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule (.*)\.(json)$ - [F,NC]
+</IfModule>
