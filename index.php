@@ -209,7 +209,7 @@
 					<h2 class="tagline-section">Develop all your sites under a single WordPress instance</h2>
 					<p>This tool allows you to use a single WordPress codebase with an unlimited ammount of sites, one at a time; you may even have a completely different set of plugins, themes and uploads for each site!</p>
 					<p>How does it work? By overwriting the <code>wp-config.php</code> file based on a profile, which contains all the essential WordPress configuration and specifying a custom <code>wp-content</code> folder for each site.</p>
-					<p>You may apply and existing profile or even generate one based on the current contents of the <code>wp-config.php</code> file.</p>
+					<p>You may apply an existing profile or even generate a new one based on the current contents of the <code>wp-config.php</code> file.</p>
 					<br>
 					<h3>Apply profile</h3>
 					<p>Please select a profile to apply</p>
