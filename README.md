@@ -21,6 +21,7 @@ For a simple start, make sure you have a properly configured WordPress instance 
 - Now, in the 'Generate profile' section enter a name (say 'blog') and click the button
 - You should have a new `blog.json` file on the `wp-switch/profiles` folder, open it up with your favorite code editor
 - Check the line that contains `WP_CONTENT_DIR` (it's the line 8 or so), modify its value so it becomes something like `wp-sites/blog/wp-content` depending on the name you used for the folder you created in step 3
+- The last step would be to change the `siteurl` and `home` options in the `wp_options` table to the URL of the WordPress installation (for this example, it would be `http://localhost/wordpress`)
 
 There you have, a completely isolated WordPress site.
 
